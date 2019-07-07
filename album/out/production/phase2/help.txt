@@ -1,0 +1,12 @@
+Run ImageApp.java to launch the GUI.
+Run Main.java to launch in java console.
+
+Commandline run: When under the directory that contains group_0480 folder, Copy and paste the following to command line:
+                 cd group_0480 && cd phase2 && cd src && javac program/*/*.java && java program.viewer.ImageApp
+
+User can use mouse on the scroll bar to navigate through images, "Update Image Info" needs to be clicked for the
+selection to take effect.
+
+This Application has special feature "safe box". User need to log in before using this feature, user can move whatever
+image they want to safe box to prevent other user from accessing the image through ImageApp.
+

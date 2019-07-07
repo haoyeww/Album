@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.controller.SafeController">
+   <children>
+      <TextField fx:id="userTxt" layoutX="300.0" layoutY="141.0" promptText="Enter Your User Name" />
+      <TextField fx:id="passwordTxt" layoutX="300.0" layoutY="200.0" promptText="Enter Your Password" />
+      <Label layoutX="145.0" layoutY="141.0" text="User Name:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="200.0" text="Password:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginBtn" layoutX="196.0" layoutY="270.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Button fx:id="CreateAccountBtn" layoutX="329.0" layoutY="270.0" mnemonicParsing="false" onAction="#createNewAccount" text="Create Account" />
+      <Label fx:id="feedbackLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="94.0" prefHeight="26.0" prefWidth="534.0" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="138.0" layoutY="314.0" lineSpacing="2.0" prefHeight="35.0" prefWidth="338.0" text="Password has to include at least 8 characters," textAlignment="CENTER" textOverrun="CLIP" />
+      <Label layoutX="138.0" layoutY="349.0" prefHeight="35.0" prefWidth="392.0" text=" with at least 1 number, 1 upper AND 1 lower case letter." />
+   </children>
+</AnchorPane>

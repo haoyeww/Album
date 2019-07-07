@@ -1,0 +1,22 @@
+JIAZHI CHANG: •	Added javaDoc for Controller classes.
+              •	Worked with TagsBuilderController to implement functionality related to tag set.
+              •	Edited fxml files and Controllers for better user feedback.
+              •	Worked with Controller class to implement updated requirements for phase 2.
+
+ZIHAO YUAN: • Worked with Controller class to implement new feature: SafeBox
+            • Worked with SafeController to implement the new login functionality.
+            • Created and edited SafeBuilder.fxml to build proper login interface.
+            • Worked with all fxml files and Controller classes for better layouts and interactivity.
+
+
+HAOYE WANG: • I developed the additional feature SafeBox for the ImageApp.
+            • I fixed multiple code style issues, including the implementation of singleton design pattern.
+            • I fixed the issue related to image scrolling in DisplayShelf.java.
+            • I made elements in Tag class serializable for easier management of previous used tags.
+            • I participated in the editing of help.txt file.
+            • I edited GUIBuilder.fxml to tweak and beatify the user interface
+
+YU CHEN： • I developed Directory.java and part of main that is associated with Directory.
+          • helped to fix exception in log and how should log work
+          • I wrote all the backend Doc strings and fixed some code smells
+          • fix the final version of UML for the backend
